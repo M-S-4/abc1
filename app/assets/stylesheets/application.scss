@@ -1,0 +1,22 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "devise_bootstrap_views";
+
+body { padding-top: 70px; }
+
+#main-footer{
+  margin-top: 5em;
+}
+
+#main-menu{
+  font-family: 'Satsify', cursive;
+}
+
+#content, #main-footer{
+  font-family: 'Raleway', cursive;
+}
+
+html.turbolinks-progress-bar::before {
+  background-color: red !important;
+  height: 5px !important;
+}

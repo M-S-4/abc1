@@ -1,0 +1,10 @@
+<article>
+  <h2><%= @episode.title %></h2>
+  <div><%= @episode.description %></div>
+
+  <hr>
+
+  <div class="embed-container">
+    <%= embed(@episode.video_link) %>
+  </div>
+</article>
